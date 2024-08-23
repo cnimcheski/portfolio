@@ -15,7 +15,7 @@ a:hover {
 }
 
 :root {
-  --md-sys-color-primary: rgb(174, 174, 174);
+  --md-sys-color-primary: orange;
 }
 
 .fab-container {
@@ -165,8 +165,24 @@ main {
   gap: 30px;
 }
 
-.project .details ul li {
+.project .details .app-store {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.project .details p {
+  line-height: 26px;
   margin-bottom: 8px;
+}
+
+.project .details ul {
+  margin-top: 0;
+}
+
+.project .details ul li {
+  margin-bottom: 6px;
 }
 
 .mock-ups {
@@ -202,6 +218,10 @@ main {
 
 .project h2 {
   margin: 0;
+}
+
+.details a {
+  border-radius: 50px;
 }
 
 .details img {
