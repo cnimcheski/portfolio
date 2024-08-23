@@ -216,7 +216,6 @@ footer {
   background-color: rgb(236, 236, 236);
   display: flex;
   justify-content: center;
-  /* gap: 100px; */
 }
 
 footer .links {
@@ -250,7 +249,7 @@ footer h2 {
 
 @media (max-width: 1366px) {
   .mock-ups.web {
-    gap: 100px;
+    gap: 60px;
   }
 }
 
@@ -266,7 +265,7 @@ footer h2 {
 
 @media (max-width: 1066px) {
   .mock-ups.mobile {
-    gap: 100px;
+    gap: 60px;
   }
 }
 
@@ -298,6 +297,11 @@ footer h2 {
   .project .details {
     flex-wrap: wrap;
   }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 700px) {
@@ -319,10 +323,5 @@ footer h2 {
 
   .card {
     width: 90%;
-  }
-
-  footer {
-    flex-direction: column;
-    gap: 20px;
   }
 }
