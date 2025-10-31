@@ -193,11 +193,11 @@ main {
 }
 
 .mock-ups.mobile img {
-  width: 300px;
+  width: 250px;
 }
 
 .mock-ups.web img {
-  width: 600px;
+  width: 550px;
 }
 
 .mock-up {
@@ -212,7 +212,11 @@ main {
   margin: 8px 0;
 }
 
-.project p {
+.mock-up p {
+  text-align: center;
+}
+
+.text p {
   text-align: left;
 }
 
@@ -227,6 +231,7 @@ main {
 .details img {
   width: 200px;
   height: 200px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-radius: 50px;
 }
 
